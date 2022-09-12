@@ -1,0 +1,51 @@
+body {
+    font-family: "Inter";
+}
+
+.columns {
+    display: flex;
+    height:100vh;
+}
+
+.column1 {
+    display: flex;
+    flex: 50%;
+    padding: 10px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.column2 {
+    flex: 50%;
+    padding: 10px;
+    background-color: gray;
+}
+
+.sample-text {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#website {
+    float: left;
+}
+
+.other-items {
+    float: right;
+}
