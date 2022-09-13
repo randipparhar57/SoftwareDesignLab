@@ -1,0 +1,76 @@
+h1, h2 {
+    text-align: center; /* aligns text to center of page */
+    color: peru; /* changes color of text */
+    background: lavender; /* changes background of element, kind of works like a highlighter */
+}
+
+ul {
+    list-style-type: none; /* makes it so it isn't a bulleted list */
+    margin: 0; /* creates space around elements, outside of navbar */
+    padding: 0; /* creates space around elements, inside of navbar */
+    overflow: hidden; /* prevents scrollbar from appearing */
+    background-color: lavenderblush; /* background color of navbar */
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block; /* element displayed as a block */
+    color: peru; /* color of text of navbar */
+    text-align: center; /* aligns text to center */
+    padding: 14px 16px; 
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: palegoldenrod; /* when hover above specific navbar option, will change color to highlight to show you are hovering on it */
+}
+
+#All-Time-Favorite-Bands {
+    font-family: cursive; /* changes font */
+    font-size: 25px; /* font size */
+}
+
+.band-link {
+    font-family: fantasy, papyrus; /* specific font from font family */
+}
+
+h1, h2, h3 {
+    font-family: 'Courier New', Courier, monospace; /* specific font from font family */
+    background-color: lavender; /* changes background of element, kind of works like a highlighter */
+}
+
+table, th, td {
+    border: 1px solid; /* border thickness and type */
+}
+
+table {
+    width: 100%; /* fill page width all the way */
+}
+
+.sadness {
+    font-family: cursive, lucinda handwriting; /* specific font from font family */
+    color: blue; /* color of text */
+    background: lightgray; /* background color of text */
+    font-weight: bolder; /* to make text bold */
+    text-align: center; /* to align text to center */
+}
+
+.anger {
+    font-family: fantasy, copperplate; /* specific font from font family */
+    font-weight: bolder; /* to make text bold */
+    text-align: center; /* to align text to center */
+}
+
+.heartbreak {
+    font-family: cursive, brush script mt;
+    font-weight: bolder; /* to make text bold */
+    color: white; /* color of text */
+    text-align: center; /* to align text to center */
+}
+
+p {
+    text-align: center;
+}
