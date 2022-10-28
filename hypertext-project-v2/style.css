@@ -1,0 +1,115 @@
+a {
+	color: white;
+	text-decoration: none;
+}
+
+body {
+	background-color: #F9F9ED;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px 40px; /* row gap column gap */
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 25px;
+	padding-bottom: 50px;
+}
+
+.header {
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+
+h1 {
+	font-family: 'Homemade Apple', cursive;
+}
+
+h2 {
+	font-family: 'Rock Salt', cursive;
+}
+
+p {
+	font-family: 'Nanum Pen Script', cursive; 
+	font-size: 22px;
+}
+
+.image, .image * {
+    box-sizing: border-box;
+}
+
+.image {
+    position: relative;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+
+.image img {
+    max-width: 100%;
+}
+
+.image .bottom-layer {
+    display: block;
+}
+
+.image .description {
+    opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	padding: 15px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+
+.image:hover .description, .image.active .description {
+    opacity: 1;
+}
+
+.image .text {
+    text-align: center;
+	font-size: 14px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.image .text_mobile {
+    font-size: 15px;
+	border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+	border-top: 1px solid rgba(179, 179, 179, 0.7);
+	margin-top: 5px;
+	padding-top: 2px;
+	display: none;
+}
+
+.image.active .text_mobile{
+    display:block;
+}
+
+.text {
+	font-family: 'Beth Ellen', cursive;
+}
+  
