@@ -1,7 +1,18 @@
-h1, h2 {
+h1, h2{
     text-align: center; /* aligns text to center of page */
     color: peru; /* changes color of text */
     background: lavender; /* changes background of element, kind of works like a highlighter */
+}
+
+button {
+    background-color: lightpink; 
+    border: none;
+    color: rosybrown;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 ul {
@@ -37,7 +48,8 @@ li a:hover {
     font-family: fantasy, papyrus; /* specific font from font family */
 }
 
-h1, h2, h3 {
+h3, h5 {
+    text-align: center; /* aligns text to center of page */
     font-family: 'Courier New', Courier, monospace; /* specific font from font family */
     background-color: lavender; /* changes background of element, kind of works like a highlighter */
 }
@@ -62,6 +74,7 @@ table {
     font-family: fantasy, copperplate; /* specific font from font family */
     font-weight: bolder; /* to make text bold */
     text-align: center; /* to align text to center */
+    background: lightcoral;
 }
 
 .heartbreak {
