@@ -1,29 +1,31 @@
 body {
+    border: 15px solid green;
     margin: 0;
     padding: 0;
 }
 
-#map {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
+.header {
+    border: 15px solid blue;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
 }
 
-/*#map {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+.map-container {
+    border: 15px solid pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 10px;
+    padding: 20px;
+}
 
-    height: 800px;
-    width: 1000px;
-
-    /*top: 0;
-    bottom: 0;
-    width: 100%;
-}*/
+#map {
+    height: 600px;
+    width: 1200px;
+}
 
 .marker {
     background-image: url('./heart.svg');

@@ -1,0 +1,67 @@
+body #map {
+    position: fixed;
+    width:70%;
+}
+
+body #features {
+    width: 30%;
+    margin-left: 70%;
+    font-family: sans-serif;
+    overflow-y: scroll;
+    background-color: #f4ecf4;
+}
+
+/*body div.title {
+    position: fixed;
+    top: 0;
+    left: 0;
+}*/
+
+body section {
+    padding:  10% 10%;
+    line-height: 25px;
+    border-bottom: 5px solid #FFFFFF;
+    opacity: 0.25;
+    font-size: 75%;
+}
+
+body section.active {
+    opacity: 1;
+}
+
+body section:last-child {
+    border-bottom: none;
+    margin-bottom: 200px;
+}
+
+/* heart marker icon */
+.marker {
+    background-image: url('./icons/heart.svg');
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: url('./icons/sparklyHeart.cur'), auto;
+}
+
+/* pop-ups when interacting with heart marker icon */
+.mapboxgl-popup {
+    max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* button */
+#button {
+    background-color: #e3f0f2;
+    border: 5px solid #d2e2d0;
+    border-radius: 50%;
+    color: #77027e;
+    padding: 5px 5px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: url('./icons/sparklyHeart.cur'), auto;
+}

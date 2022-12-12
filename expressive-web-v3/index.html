@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<html>
+
+    <head>
+
+        <meta charset='utf-8' />
+        <title>NostalgiaNYC</title>
+        <meta name='viewport' content=content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/>
+        <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.js"></script>
+        <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.css' rel='stylesheet' />
+        <link rel="stylesheet" type="text/css" href="./style.css" media="screen" />
+
+        <style>
+            body { margin:0; padding:0; }
+            #map { position:absolute; top:0; bottom:0; width:100%; }
+        </style>
+
+    </head>
+    
+    <body>
+
+        <div id = 'map'></div>
+        
+        <div id = 'features'>
+            <section id = 'prologue' class = 'active'>
+                <h2>Nostalgia NYC</h2>
+                <h3>DHUM 71000 - Expressive Web Project</h3>
+                <h3>The Graduate Center of the City University of New York</h3>
+                <h4>12.16.2022</h4>
+
+                <p>There is a trend on social media revolving around moments that altered one's brain chemistry. It's got me thinking about the powerful emotions and memories that nostalgia evokes. I've always been a very nostalgic person. Not because I am unhappy with where I am (though I'm sure the uncertainty that comes with adulting and growing up might have a little to do with my being a nostalgic person). It's because I just really enjoyed the journey to getting to where I am now and sometimes I wish to experience the novelty of things over again.</p> 
+                    
+                <p>My birthday is coming up. As I grow another year older, I think about all the memories that are so clear and standout from the rest. The thing is that most of them aren't even very special - many of them definitely aren't on the list of most exciting or grand things that have happened in my life. But yet, they have made the most impact in my life and are moments that I will cherish forever.</p> 
+
+                <p>Keep in mind, this isn't a complete list. There are many places and stories I plan on adding. Ultimately, I would like this to act as an interactive storybook of my life for my future children, grandchildren, etc. to read. I've always been interested in archiving pictures and videos to look back on and share with loved ones, so this is another medium that I am excited to explore.</p>
+            </section>
+
+            <section id = 'home' class = 'active'>
+                <h2>Chapter 1</h2>
+                <h3>Home</h3>
+
+                <center><img src="./meadow-lake/meadow-lake1.JPG" alt="snow by the lake" width = 80% id = "homeImages"></center>
+                <center><button id = 'button' type = "button">Click</button></center>
+
+                <p>See this house? This house was my home for the first 17 years of my life. Not the whole house, but the basement that we rented. Now wait! It's not the typical basement that you are probably imagining right now. It was more like a studio. It was cozy, homey, and warm. It was home and still is. I grew up in the quiet neighborhood of Fresh Meadows in Queens. School was close by. Napoli's Pizzeria was and still is the GOAT. The Q64 allowed us to go to Forest Hills to take the E or F to the city. The Q65 would take us to Flushing which we visited quite often since temple was there, Indian grocery stores were there, and a lot of family frieds lived there. We got to enjoy a quiet and peaceful life, while still being able to have close access to the urban jungle known as Manhattan (or the city which is what we referred to it as). Literally, the best to both worlds.</p>
+
+                <p>One key memory that sticks out to me was when my mom gave birth to my little sister. It was the first time I was away from my mom. I remember my dad bringing home Napoli's. Afterwards, he took me to the park nearby to play. Even though it might not seem like a big deal, it was to me. My dad works a lot. And, sometimes I wondered if he really knew me like how my mom does because he would be at work and wasn't at home as much as my mom was. This is the first memory that I have of my dad showing me that even though we don't spend as much time together as I do with mom, he makes the effort to know and understand us. And that meant a lot to me as a four year old who was spending their first days away from their mom.</p>
+
+                <p>Another memory which occurred shortly after the one above is when my mom and little sister came back home from the hospital. Now, I don't recall doing this, but it's been a running joke for two decades now. According to my mom, the first few days of having a little sister didn't sit quite well with me. Which makes sense because going from being an only child (and might I add, a child who was a very easy baby and kid according to my mother) to being a sibling was not a transition I welcomed with open arms. So, one fine day, I had came up with the brilliant idea of getting a large black garbage bag and going to my mother with it. She asked me what the garbage bag was for, to which I confidently replied "To throw the nuisance out. The garbage men will pick her up and take her away." 
+
+                <p>>I am happy to say that the annoyance towards my little sister didn't last for long as my mother patiently and lovingly guided me through the transition of going from an only child to a sibling. Today, my sister is not just my sister, but my best friend and quite literally the love of my life.</p>
+            </section>
+
+            <section id = 'ps200' class = 'active'>
+                <h2>Chapter 2</h2>
+                <h3>P.S./M.S. 200</h3>
+
+                <p>P.S./M.S. 200 was literally a block away from home. This is where I started my academic journey. I was only here for Pre-K and then went to a nearby elementary school for Kindergarten to fifth grade because school district zoning works in funny ways. Since we lived on the other side of Jewel Avenue, my zoned school was a few blocks away. So, after completing Pre-K here, I completed elementary school somewhere else. I ended up coming back here for middle school though since in NYC, you apply for middle school and you apply for high school.</p>
+            </section>
+
+        </div>
+
+    </body>
+
+
+    <!-- loads p5.js library from the web, place before my main.js file-->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.2/lib/p5.js"></script>
+    <script src="./main.js"></script>
+
+</html> 
