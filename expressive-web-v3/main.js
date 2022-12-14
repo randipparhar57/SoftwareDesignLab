@@ -25,12 +25,54 @@ var chapters = {
     pitch: 0
   },
 
-  'ps200': {
+  'ps154': {
     bearing: 0,
-    center: [-73.805684, 40.731456],
+    center: [-73.807316, 40.726544],
     zoom: 20,
     pitch: 0
-  }
+  },
+
+  'corona-park': {
+    bearing: 0,
+    center: [-73.850531, 40.746674],
+    zoom: 20,
+    pitch: 0
+  },
+
+  'fhhs': {
+    bearing: 0,
+    center: [-73.844974, 40.729761],
+    zoom: 20,
+    pitch: 0
+  },
+
+  'qc': {
+    bearing: 0,
+    center: [-73.81958, 40.736669],
+    zoom: 20,
+    pitch: 0
+  },
+
+  'meadow-lake': {
+    bearing: 0,
+    center: [-73.843952, 40.734312],
+    zoom: 20,
+    pitch: 0
+  },
+
+  'forest-hills': {
+    bearing: 0,
+    center: [-73.844951, 40.719628],
+    zoom: 20,
+    pitch: 0
+  },
+
+  'present': {
+    bearing: 0,
+    center: [-73.984, 40.748],
+    zoom: 20,
+    pitch: 0
+  },
 }
 
 
@@ -45,18 +87,6 @@ const geojson = {
       },
       'properties': {
         'title': 'Home',
-        'description': 'coming soon'
-      }
-    },
-
-    {
-      'type': 'Feature',
-        'geometry': {
-        'type': 'Point',
-        'coordinates': [-73.805684, 40.731456]
-      },
-      'properties': {
-        'title': 'P.S./M.S. 200',
         'description': 'coming soon'
       }
     },
@@ -127,34 +157,10 @@ const geojson = {
       'type': 'Feature',
         'geometry': {
         'type': 'Point',
-        'coordinates': [-73.8534163025816, 40.732452368098585]
-      },
-      'properties': {
-        'title': 'J.H.S. 157 Stephen A. Halsey',
-        'description': 'coming soon'
-      }
-    },
-
-    {
-      'type': 'Feature',
-        'geometry': {
-        'type': 'Point',
-        'coordinates': [-73.845118, 40.719955]
-      },
-      'properties': {
-        'title': 'Forest Hills Station House',
-        'description': 'coming soon'
-      }
-    },
-
-    {
-      'type': 'Feature',
-        'geometry': {
-        'type': 'Point',
         'coordinates': [-73.844951, 40.719628]
       },
       'properties': {
-        'title': 'Forest Hills Station Square',
+        'title': 'Forest Hills',
         'description': 'coming soon'
       }
     },
@@ -166,7 +172,7 @@ const geojson = {
       'coordinates': [-73.984, 40.748]
     },
     'properties': {
-      'title': 'The Graduate Center of the City University of New York',
+      'title': 'Present',
       'description': 'coming soon'
     }
     }

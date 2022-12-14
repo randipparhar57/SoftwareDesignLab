@@ -9,6 +9,8 @@ body #features {
     font-family: sans-serif;
     overflow-y: scroll;
     background-color: #f4ecf4;
+    font-family: 'La Belle Aurore'; 
+    font-size: 24px;
 }
 
 /*body div.title {
@@ -51,7 +53,8 @@ body section:last-child {
 
 .mapboxgl-popup-content {
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'La Belle Aurore'; 
+    font-size: 20px;
 }
 
 /* button */
