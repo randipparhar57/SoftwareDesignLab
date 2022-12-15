@@ -68,4 +68,16 @@ body section:last-child {
     font-family: 'La Belle Aurore'; 
     font-size: 16px;
     cursor: url('./icons/sparklyHeart.cur'), auto;
+    transition-duration: 0.4s;
 }
+
+#homebutton:hover, #schoolbutton:hover, #coronaparkbutton:hover, #fhhsbutton:hover, #qcbutton:hover, #meadowlakebutton:hover, #fhbutton:hover, #presentbutton:hover {
+    background-color: #77027e; 
+    color: #e3f0f2;
+}
+
+#homebutton:active, #schoolbutton:active, #coronaparkbutton:active, #fhhsbutton:active, #qcbutton:active, #meadowlakebutton:active, #fhbutton:active, #presentbutton:active {
+    background-color: #77027e;
+    box-shadow: 0 5px #77027e;
+    transform: translateY(10px);
+  }
