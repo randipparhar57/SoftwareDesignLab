@@ -58,13 +58,14 @@ body section:last-child {
 }
 
 /* button */
-#button {
+#homebutton, #schoolbutton, #coronaparkbutton, #fhhsbutton, #qcbutton, #meadowlakebutton, #fhbutton, #presentbutton {
     background-color: #e3f0f2;
     border: 5px solid #d2e2d0;
     border-radius: 50%;
     color: #77027e;
     padding: 5px 5px;
     text-decoration: none;
+    font-family: 'La Belle Aurore'; 
     font-size: 16px;
     cursor: url('./icons/sparklyHeart.cur'), auto;
 }
