@@ -9,11 +9,11 @@ DHUM 71000 Fall 2022
 <p><a href="https://randipparhar57.github.io/SoftwareDesignLab/assignment2-ugly-site-2/index.html">Live Site</a></p>
 <p><a href="https://github.com/randipparhar57/SoftwareDesignLab/tree/main/assignment2-ugly-site-2">Repo</a></p>
 
-<h3>Hypertext Project</h4>
+<h3>Hypertext Project</h3>
 <p><a href="https://randipparhar57.github.io/SoftwareDesignLab/hypertext-project-v2/index.html">Live Site</a></p>
 <p><a href="https://github.com/randipparhar57/SoftwareDesignLab/tree/main/hypertext-project-v2">Repo</a></p>
 
-<h3>Expressive Web Project</h4>
+<h3>Expressive Web Project</h3>
 <p><a href="https://randipparhar57.github.io/SoftwareDesignLab/expressive-web-v3/index.html">Live Site</a></p>
 <p><a href="https://github.com/randipparhar57/SoftwareDesignLab/tree/main/expressive-web-v3">Repo</a></p>
 
